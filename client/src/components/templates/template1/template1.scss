@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.container{
+    margin:1%;
+    width:3508px;
+    height:2480px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#hide {
+    //visibility: hidden;
+    position: absolute;
+    top: -9999px; left: -9999px;
+ }
+
+.resume{
+    width:100%;
+}
+
+.name h1{
+    margin-top: 1%;
+    font-size: 4em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.contact-details{
+    display:flex;
+    div{
+        margin:1%;
+        margin-left:auto;
+        margin-right: auto;
+        padding:1%;
+        font-size: 1.5em;
+        text-align: center;
+        justify-content: space-between;
+        font-family: 'Open Sans', sans-serif;
+    }
+}
+
+
+hr{
+    margin: 1% 2%;
+    border: 1px solid gray;
+}
+
+.main-content{
+    margin-top: 5%;
+}
+
+.content{
+    margin-top: 5%;  
+    margin-bottom: 5%;
+
+}
+
+
+
+.heading{
+    h2{
+    margin-top: 1%;
+    font-weight: bold;
+    font-size: 2em !important;
+    font-family: 'Roboto', sans-serif;
+    }
+    
+}
+
+
+.inline{
+    display: inline;
+    margin-top: 1%;
+}
+
+.info{
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+
+.details{
+
+    margin-top: 1%;
+    p{
+        font-size: 1.3em;
+        margin:0;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .sub-heading{
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 1.5em;
+        margin-top: 3%;
+    }
+
+    .description{
+        
+
+        p::before{
+            display: inline-block;
+            width: 5px;
+            height: 5px;
+            margin-right: 1%;
+            content:'';
+            border: 1px solid;
+            padding: 6px;
+            box-shadow: 2px 2px #888888;
+            
+        }            
+    }
+}
+
